@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="Text/css" href="estilo.css">
+    <title>CV VALENTÍN ALVES</title>
+    <link rel="icon" href="img/argentinaprograma.png">
+</head>
+<body>
+    <!--MENU DE ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                V<span class="color">A</span>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mí</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#resumen" onclick="seleccionar()">Resumen</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--SECCIÓN DE INICIO-->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h1>VALENTÍN ALVES</h1>
+                <h2>DESARROLLADOR WEB FUL STACK</h2>
+                <div class="redes">
+                    <a href="https://twitter.com/econocimientoar"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/argentinaprograma4.0/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="img/perfil.jpg" alt="Foto de Valentín Alves">
+            </div>
+        </div>
+    </section>
+
+    <!--SOBRE MI-->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            <h3>Detalles Personales</h3>
+
+            <p class="especial">Soy un desarrollador web full stack con más de 5 años de experiencia en la creación de aplicaciones y sitios web.</p>
+            <p>Me apasiona la tecnología y siempre estoy buscando aprender nuevas habilidades para mantenerme actualizado. Soy una persona proactiva, autónoma y con habilidades de comunicación efectiva. Mi objetivo es contribuir al éxito de la empresa y ofrecer productos de alta calidad.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-mobile"></i>
+                    <span class="titulo-detalle">Teléfono</span>
+                    <p>+54 9 11 2345-6789</p>
+                </div>
+                <div class="col">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>Calle 123, Florencio Varela, Buenos Aires, Argentina</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="titulo-detalle">E-mail</span>
+                    <p>valentinalves@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION HABILIDADES-->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis Habilidades</h2>
+            <h3>ME ESPECIALIZO EN</h3>
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>99%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>95%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>BOOSTRAP</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="boostrap">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>92%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>REACT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="react">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>84%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>PHP</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="php">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>79%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>MySQL</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="mysql">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>MongoDB</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="mongodb">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>81%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>NodeJs</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="nodejs">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+
+                        </div>
+                        <span>95%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--EXPERIENCIA-->
+    <section class="experiencia" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>ESTUDIOS Y EXPERIENCIA</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">EDUCACIÓN</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2012 - 2018</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Proporciona conocimientos avanzados en programación y tecnologías de la información, que incluyen lenguajes de programación, bases de datos, seguridad informática, redes de computadoras y desarrollo de software. El objetivo de esta carrera es formar profesionales capaces de diseñar, desarrollar e implementar sistemas y aplicaciones informáticas eficientes y efectivas.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Lic. en Programación Informática</h4>
+                                <p>Universidad Nacional de Quilmes</p>
+                                <span class="promedio">9.3 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2018 - 2019</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Formación en línea que proporciona conocimientos y habilidades en todas las etapas del desarrollo web, incluyendo diseño de la interfaz de usuario, programación del lado del cliente y del servidor, bases de datos, seguridad y control de versiones. Aprendí a utilizar tecnologías como HTML, CSS, JavaScript, React, Node.js, MongoDB, Git y Agile. El objetivo de este curso es formar a profesionales capaces de crear aplicaciones web completas desde cero y desplegarlas en línea con alta calidad y rendimiento.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Desarrollo Web Full Stack</h4>
+                                <p>OpenBootcamp</p>
+                                <span class="promedio">9.5 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">EXPERIENCIA LABORAL</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2018 - 2021</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Diseñé y desarrollé varios proyectos web y aplicaciones utilizando tecnologías como HTML, CSS, JavaScript, React, Node.js y MongoDB. Trabajé en un equipo multidisciplinario para lograr el éxito del proyecto y cumplir con los plazos de entrega.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Desarrollador Web Junior</h4>
+                                <p>ABC Company, Florencio Varela, Buenos Aires, Argentina</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2021 - 2023</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Desarrollé sitios web y aplicaciones utilizando tecnologías como PHP, MySQL, HTML, CSS y JavaScript.Realicé tareas de mantenimiento y mejora de las aplicaciones existentes.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Desarrollo Web Full Stack</h4>
+                                <p>XYZ Company, Quilmes, Buenos Aires, Argentina</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+    <footer class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>¡CONTACTAME AHORA!</h3>
+            <DIV class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-mobile"></i>Teléfono
+                    </h2>
+                    <span>+54 9 11 2345-6789</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i>Correo
+                    </h2>
+                    <span>valentinalves@email.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe"></i>Página Web
+                    </h2>
+                    <span>valentinalves.com</span>
+                </div>
+            </DIV>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
